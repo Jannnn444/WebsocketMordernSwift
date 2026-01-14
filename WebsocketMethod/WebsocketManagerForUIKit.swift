@@ -300,3 +300,14 @@ class WebSocketViewController: UIViewController {
         webSocketTask?.cancel(with: .goingAway, reason: nil)
     }
 }
+
+
+
+//wss://ws.postman-echo.com/raw
+//wss://echo.websocket.org/.ws
+//wss://echo.ably.io
+//wss://socketsbbay.com/wss/v2/1/demo/
+
+
+
+
