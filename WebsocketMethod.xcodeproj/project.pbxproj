@@ -12,6 +12,7 @@
 		1EA758622F1740BC00F44509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA758612F1740BC00F44509 /* Assets.xcassets */; };
 		1EA758662F1740BC00F44509 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA758652F1740BC00F44509 /* Preview Assets.xcassets */; };
 		1EA7586D2F1740EF00F44509 /* WebsocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA7586C2F1740EF00F44509 /* WebsocketManager.swift */; };
+		1EA7586F2F17450600F44509 /* WebsocketManagerForUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA7586E2F17450600F44509 /* WebsocketManagerForUIKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1EA758632F1740BC00F44509 /* WebsocketMethod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WebsocketMethod.entitlements; sourceTree = "<group>"; };
 		1EA758652F1740BC00F44509 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1EA7586C2F1740EF00F44509 /* WebsocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsocketManager.swift; sourceTree = "<group>"; };
+		1EA7586E2F17450600F44509 /* WebsocketManagerForUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsocketManagerForUIKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				1EA758632F1740BC00F44509 /* WebsocketMethod.entitlements */,
 				1EA758642F1740BC00F44509 /* Preview Content */,
 				1EA7586C2F1740EF00F44509 /* WebsocketManager.swift */,
+				1EA7586E2F17450600F44509 /* WebsocketManagerForUIKit.swift */,
 			);
 			path = WebsocketMethod;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EA7586F2F17450600F44509 /* WebsocketManagerForUIKit.swift in Sources */,
 				1EA758602F1740BA00F44509 /* ContentView.swift in Sources */,
 				1EA7585E2F1740BA00F44509 /* WebsocketMethodApp.swift in Sources */,
 				1EA7586D2F1740EF00F44509 /* WebsocketManager.swift in Sources */,
