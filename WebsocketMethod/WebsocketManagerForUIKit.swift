@@ -94,6 +94,7 @@ class WebSocketViewController: UIViewController {
         logTextView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(logTextView)
         
+        logTextView.textColor = .black
         NSLayoutConstraint.activate([
             statusLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
             statusLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
